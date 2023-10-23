@@ -1,0 +1,87 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#newyellow-div {
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 1%;
+    z-index: 100;
+
+    width: 80%;
+    height: 80%;
+    background-color: #000000EE;
+    /* background-color: aqua; */
+
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#newyellow-div .sub-cams {
+    display: flex;
+    position: absolute;
+    width: 14vw;
+    height: 100%;
+
+    right: 10px;
+    top: 10px;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: #FFFF0088; */
+}
+
+#newyellow-div .main-cam {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+.camScreen {
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+}
+
+
+#newyellow-control {
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 48px;
+    background-color: #00000088;
+    border: none;
+
+    left: calc( 50% - 200px );
+    top: 10px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#newyellow-control .NYButton {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 32px;
+    
+    margin: 6px;
+
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
